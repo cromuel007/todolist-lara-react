@@ -20,6 +20,12 @@ Route::get('/', function () {
 
 });
 
+Route::get('/fe-test', function () {
+
+    return view('fe-test');
+
+});
+
 // Route::get('/', [TodoController::class, 'index']);
 
 // Route::resource('todo', TodoController::class);
